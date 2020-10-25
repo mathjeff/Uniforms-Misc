@@ -22,7 +22,7 @@ namespace Uniforms.Misc
         /// <summary>
         /// Init with the specified platform implementation.
         /// </summary>
-        internal static void Init (ITextUtils platformImplementation)
+        public static void Init (ITextUtils platformImplementation)
         {
             implementation = platformImplementation;
         }
